@@ -9,14 +9,9 @@
 void (*get_op_func(char *buffer))(stack_t **, u_int)
 {
 	char *temp;
-
 	instruction_t ops[] = {
 	    {"push", push},
 	    {"pall", pall},
-	    /**
-	     * {"pint", pint},
-	     * {"pop", pop},
-	     */
 	    {NULL, NULL}};
 	int i = 0;
 

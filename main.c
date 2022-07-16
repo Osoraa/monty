@@ -7,7 +7,7 @@ char *op_code;
 /**
  * main - Program entry point
  *
- * @argc: Arument count
+ * @argc: Argument count
  * @argv: Argument vector
  *
  * Return: Always 0
