@@ -51,5 +51,5 @@ int main(int argc, char *argv[])
 	free(buffer);
 	fclose(fd);
 	close(monty_file);
-	return (0);	
+	return (0);
 }

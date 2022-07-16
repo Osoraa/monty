@@ -33,7 +33,7 @@ void push(stack_t **head, u_int line_number)
 		current = current->next;
 
 	current->next = node;
-	node->prev = current;	
+	node->prev = current;
 }
 
 /**
