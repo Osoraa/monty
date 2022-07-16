@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
 		func = get_op_func(buffer);
 		if (func == NULL)
 		{
-			printf("L%ld: unknown instruction %s\n", line_number, op_code);
+			dprintf(2, "L%ld: unknown instruction %s\n", line_number, op_code);
 			exit(EXIT_FAILURE);
 		}
 		func(&stack, line_number);
